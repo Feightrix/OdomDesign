@@ -1,0 +1,324 @@
+a.navbar-brand {
+    font-family: "Cormorant Garamond", "Times", serif;
+    font-size: 20px;
+    color: #ffbb01;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-right li a {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+}
+
+.afterScroll {
+    transition: all ease .7s;
+    position: absolute;
+    top: -55px;
+}
+
+.afterScroll.opaque {
+    transition: all ease .7s;
+    position: fixed;
+    top: 0px;
+}
+
+.beforeScroll {
+    transition: all ease .7s;
+    position: absolute;
+    top: 20px;
+    background: transparent;
+    border: none;
+}
+
+.beforeScroll.opaque {
+    transition: all ease .7s;
+    position: absolute;
+    top: 20px;
+}
+
+.beforeScroll li a {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+}
+
+.navbar #odomNavTop {
+    background: transparent;
+}
+
+#horizontalLogo {
+    margin-top: 0px;
+}
+
+.hLogo {
+    transition: .7s all ease;
+    font-family: "Cormorant Garamond", "Times", serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffbb01;
+    text-shadow: -1px 1px 1px #a9a9a9;
+    margin-bottom: -8px;
+}
+
+.hLogo span {
+    transition: .7s all ease;
+    font-family: "Cormorant Garamond", "Times", serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffbb01;
+}
+
+.modern {
+    transition: .7s all ease;
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 18px;
+}
+
+.rich {
+    transition: .7s all ease;
+    font-family: "Cormorant Garamond", "Times", serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.rich span {
+    transition: .7s all ease;
+    font-family: "Cormorant Garamond", "Times", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.featuredVideo {
+    border: 1px solid #333333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#featuredHouse {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#featuredHouse h2 {
+    font-family: "Cormorant Garamond", "Times", serif;
+    margin-top: 0px;
+}
+
+#featuredHouse p {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    color: #777777;
+    line-height: 24px;
+}
+
+.btn-default a {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #777777;
+}
+
+.btn-default a:hover {
+    color: #333333;
+}
+
+ul.infoBtns {
+    list-style: none;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+ul.infoBtns li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+ul.infoBtns li a {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+ul.infoBtns li a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.infoBtns img {
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+#moreHouses {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.caption h4 {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    color: #777777;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    background: linear-gradient(to bottom, #efefef, #d9d9d9);
+    border-top: solid 1px #c9c9c9;
+}
+
+footer p {
+    font-family: "Muli", "Helvetica Neue", "Arial", sans-serif;
+    line-height: 50px;
+    font-size: 12px;
+    color: #999999;
+}
+
+ul.termsLicensing {
+    list-style: none;
+}
+
+ul.termsLicensing li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul.termsLicensing li a {
+    line-height: 50px;
+    color: #999999;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 400px) {
+    #horizontalLogo {
+        margin-top: 0;
+    }
+    
+    #featuredHouse {
+        margin-top: 20px;
+    }
+    
+    #featuredHouse h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #featuredHouse p {
+        text-align: center;
+    }
+    
+    .btn-default {
+        width: 100%;
+    }
+    
+    #tourBtns {
+        display: none;
+    }
+    
+    ul.infoBtns {
+        margin-top: 20px;
+    }
+    
+    ul.infoBtns li {
+        margin: 0 10px;
+    }
+    
+    #tourBtnsMobile .btn {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .beforeScroll {
+        transition: .7s all ease;
+        position: absolute;
+        top: 5px;
+    }
+    
+    .beforeScroll.opaque {
+        transition: all ease .7s;
+        position: absolute;
+        top: 5px;
+    }
+    
+    .hLogo {
+        transition: .7s all ease;
+        font-size: 28px;
+        text-align: left;
+    }
+    
+    .hLogo span {
+        transition: .7s all ease;
+        font-size: 34px;
+        text-align: left;
+    }
+    
+    .mobileCenter {
+        transition: .7s all ease;
+        text-align: left;
+    }
+    
+    .modern {
+        transition: .7s all ease;
+        font-size: 16px;
+    }
+
+    .rich {
+        transition: .7s all ease;
+        font-size: 14px;
+    }
+
+    .rich span {
+        transition: .7s all ease;
+        font-size: 16px;
+    }
+    
+    #desktopFooter {
+        display: none;
+    }
+    
+    #mobileFooter {
+        display: block;
+    }
+    
+    #mobileFooter p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+    #featuredHouse {
+        margin-top: 20px;
+}
+    
+    #featuredHouse h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #featuredHouse p {
+        text-align: center;
+    }
+    
+    .btn-default {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) { 
+    #tourBtnsMobile {
+        display: none;
+    }
+    
+    .btn-default {
+        width: 100%;
+    }
+}
